@@ -20,6 +20,7 @@ h2 {
 }
 h3 {
   color: #11999E;
+  font-size: 30px;
 }
 a {
   color: #11999E;
@@ -32,8 +33,8 @@ a:hover {
 }
 
 p {
-  font-family: 'Roboto Slab', serif;
-  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.562rem;
     line-height: 2;
 }
 .top-container {
@@ -48,6 +49,7 @@ p {
 
 img {
   margin-top: 70px;
+  width: 40%;
 }
 
 .intro {
@@ -69,15 +71,18 @@ img {
 
 .top-cloud {
   position: absolute;
-  right: 200px;
-  top: 50px
+  right: 40px;
+  top: 5px;
+  width: 15%;
+  margin-top: 50px;
 
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 200px;
-  bottom: 400px;
+  left: 40px;
+  bottom: 300px;
+  width: 15%;
 }
 .skill-row {
   width: 50%;
@@ -88,12 +93,12 @@ img {
 
 }
 .skill-image {
-  width: 25%;
+  width: 50%;
   float: left;
   margin-right: 30px;
 }
 .barber-image {
-  width: 25%;
+  width: 50%;
   float: right;
   margin-left: 30px;
 }
